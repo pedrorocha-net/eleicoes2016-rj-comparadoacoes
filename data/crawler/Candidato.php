@@ -42,6 +42,10 @@ class Candidato {
     return $path;
   }
 
+  public function getDadosConsolidados() {
+    return $this->candidatura->dadosConsolidados;
+  }
+
 }
 
 ?>

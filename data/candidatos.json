@@ -4,76 +4,440 @@
     "nome": "ALESSANDRO MOLON",
     "numero": "18",
     "partido": "REDE",
-    "slogan": "TODOS PELO RIO"
+    "slogan": "TODOS PELO RIO",
+    "totalArrecadado": 103152.5,
+    "fundoPartidario": 21952.5,
+    "pessoasFisicas": 81200,
+    "numeroDoadores": 11,
+    "apoioMedio": 9377.5,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000181160011RJ000001E",
+        "dtReceita": "2016-08-29",
+        "nomeDoador": "BEATRIZ SAWAYA BOTELHO BRACHER",
+        "valorReceita": 60000
+      },
+      {
+        "nrReciboEleitoral": "000181160011RJ000003E",
+        "dtReceita": "2016-08-31",
+        "nomeDoador": "GISELA MARIA MOREAU",
+        "valorReceita": 20000
+      },
+      {
+        "nrReciboEleitoral": "000181160011RJ000004E",
+        "dtReceita": "2016-09-03",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 10000
+      },
+      {
+        "nrReciboEleitoral": "000181160011RJ000007E",
+        "dtReceita": "2016-09-03",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 5212.5
+      },
+      {
+        "nrReciboEleitoral": "000181160011RJ000010E",
+        "dtReceita": "2016-09-10",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 2300
+      }
+    ]
   },
   {
     "id": "190000007450",
     "nome": "CARMEN MIGUELES",
     "numero": "30",
     "partido": "NOVO",
-    "slogan": "NOVO"
+    "slogan": "NOVO",
+    "totalArrecadado": 35570.94,
+    "fundoPartidario": 6000,
+    "pessoasFisicas": 28370.94,
+    "numeroDoadores": 24,
+    "apoioMedio": 1482.1225,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000301160011RJ000005E",
+        "dtReceita": "2016-08-30",
+        "nomeDoador": "CESAR AUGUSTO FURTADO FRANCO",
+        "valorReceita": 10000
+      },
+      {
+        "nrReciboEleitoral": "000301160011RJ000001E",
+        "dtReceita": "2016-08-26",
+        "nomeDoador": "ANDR\u00c9 STRAUSS VASQUES",
+        "valorReceita": 10000
+      },
+      {
+        "nrReciboEleitoral": "000301160011RJ000003E",
+        "dtReceita": "2016-08-26",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 3000
+      },
+      {
+        "nrReciboEleitoral": "000301160011RJ000002E",
+        "dtReceita": "2016-08-26",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 3000
+      },
+      {
+        "nrReciboEleitoral": "000301160011RJ000006E",
+        "dtReceita": "2016-08-31",
+        "nomeDoador": "MARCO A. P. CABRAL",
+        "valorReceita": 2000
+      }
+    ]
   },
   {
     "id": "190000017952",
     "nome": "CRIVELLA",
     "numero": "10",
     "partido": "PRB",
-    "slogan": "POR UM RIO MAIS HUMANO"
+    "slogan": "POR UM RIO MAIS HUMANO",
+    "totalArrecadado": 2920300,
+    "fundoPartidario": 2893000,
+    "pessoasFisicas": 27300,
+    "numeroDoadores": 14,
+    "apoioMedio": 208592.857143,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000101160011RJ000001E",
+        "dtReceita": "2016-08-19",
+        "nomeDoador": "Dire\u00e7\u00e3o Nacional",
+        "valorReceita": 1145000
+      },
+      {
+        "nrReciboEleitoral": "000101160011RJ000003E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "Dire\u00e7\u00e3o Nacional",
+        "valorReceita": 828000
+      },
+      {
+        "nrReciboEleitoral": "000101160011RJ000012E",
+        "dtReceita": "2016-09-13",
+        "nomeDoador": "Dire\u00e7\u00e3o Nacional",
+        "valorReceita": 800000
+      },
+      {
+        "nrReciboEleitoral": "000101160011RJ000013E",
+        "dtReceita": "2016-09-14",
+        "nomeDoador": "Dire\u00e7\u00e3o Nacional",
+        "valorReceita": 120000
+      },
+      {
+        "nrReciboEleitoral": "000101160011RJ000002E",
+        "dtReceita": "2016-08-29",
+        "nomeDoador": "FELIPE HERRERO RODRIGUES",
+        "valorReceita": 10000
+      }
+    ]
   },
   {
     "id": "190000019572",
     "nome": "CYRO GARCIA",
     "numero": "16",
     "partido": "PSTU",
-    "slogan": "PSTU"
+    "slogan": "PSTU",
+    "totalArrecadado": 5880.01,
+    "fundoPartidario": 4280.01,
+    "pessoasFisicas": 800,
+    "numeroDoadores": 10,
+    "apoioMedio": 588.001,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000161160011RJ000004E",
+        "dtReceita": "2016-08-17",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 1400.01
+      },
+      {
+        "nrReciboEleitoral": "000161160011RJ000003E",
+        "dtReceita": "2016-08-17",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 1000
+      },
+      {
+        "nrReciboEleitoral": "000161160011RJ000006E",
+        "dtReceita": "2016-08-25",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 840
+      },
+      {
+        "nrReciboEleitoral": "000161160011RJ000001E",
+        "dtReceita": "2016-08-17",
+        "nomeDoador": "CYRO GARCIA",
+        "valorReceita": 800
+      },
+      {
+        "nrReciboEleitoral": "000161160011RJ000002E",
+        "dtReceita": "2016-08-17",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 800
+      }
+    ]
   },
   {
     "id": "190000011736",
     "nome": "FL\u00c1VIO BOLSONARO",
     "numero": "20",
     "partido": "PSC",
-    "slogan": "O RIO PRECISA DE FOR\u00c7A PARA MUDAR"
+    "slogan": "O RIO PRECISA DE FOR\u00c7A PARA MUDAR",
+    "totalArrecadado": 335000,
+    "fundoPartidario": 335000,
+    "pessoasFisicas": 0,
+    "numeroDoadores": 3,
+    "apoioMedio": 111666.666667,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000201160011RJ000004E",
+        "dtReceita": "2016-09-02",
+        "nomeDoador": "Dire\u00e7\u00e3o Nacional",
+        "valorReceita": 135000
+      },
+      {
+        "nrReciboEleitoral": "000201160011RJ000005E",
+        "dtReceita": "2016-09-12",
+        "nomeDoador": "Dire\u00e7\u00e3o Nacional",
+        "valorReceita": 100000
+      },
+      {
+        "nrReciboEleitoral": "000201160011RJ000001E",
+        "dtReceita": "2016-08-23",
+        "nomeDoador": "Dire\u00e7\u00e3o Nacional",
+        "valorReceita": 100000
+      }
+    ]
   },
   {
     "id": "190000024651",
     "nome": "INDIO DA COSTA",
     "numero": "55",
     "partido": "PSD",
-    "slogan": "JUNTOS PELO CARIOCA"
+    "slogan": "JUNTOS PELO CARIOCA",
+    "totalArrecadado": 690000,
+    "fundoPartidario": 575000,
+    "pessoasFisicas": 115000,
+    "numeroDoadores": 5,
+    "apoioMedio": 138000,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000551160011RJ000001E",
+        "dtReceita": "2016-08-31",
+        "nomeDoador": "Dire\u00e7\u00e3o Nacional",
+        "valorReceita": 500000
+      },
+      {
+        "nrReciboEleitoral": "000551160011RJ000003E",
+        "dtReceita": "2016-09-06",
+        "nomeDoador": "Dire\u00e7\u00e3o Estadual\/Distrital",
+        "valorReceita": 75000
+      },
+      {
+        "nrReciboEleitoral": "000551160011RJ000005E",
+        "dtReceita": "2016-09-12",
+        "nomeDoador": "ELIE HORN",
+        "valorReceita": 50000
+      },
+      {
+        "nrReciboEleitoral": "000551160011RJ000004E",
+        "dtReceita": "2016-09-08",
+        "nomeDoador": "LUIZ GUSTAVO ANTONIO SILVA BICHARA",
+        "valorReceita": 50000
+      },
+      {
+        "nrReciboEleitoral": "000551160011RJ000002E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "FRANCISCO ANTUNES MACIEL MUSSNICH",
+        "valorReceita": 15000
+      }
+    ]
   },
   {
     "id": "190000007222",
     "nome": "JANDIRA FEGHALI",
     "numero": "65",
     "partido": "PC DO B",
-    "slogan": "RIO EM COMUM"
+    "slogan": "RIO EM COMUM",
+    "totalArrecadado": 194807.85,
+    "fundoPartidario": 149000,
+    "pessoasFisicas": 45807.85,
+    "numeroDoadores": 42,
+    "apoioMedio": 4638.28214286,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000651160011RJ000012E",
+        "dtReceita": "2016-08-23",
+        "nomeDoador": "Dire\u00e7\u00e3o Estadual\/Distrital",
+        "valorReceita": 99000
+      },
+      {
+        "nrReciboEleitoral": "000651160011RJ000032E",
+        "dtReceita": "2016-09-09",
+        "nomeDoador": "Dire\u00e7\u00e3o Estadual\/Distrital",
+        "valorReceita": 50000
+      },
+      {
+        "nrReciboEleitoral": "000651160011RJ000013E",
+        "dtReceita": "2016-08-24",
+        "nomeDoador": "MARCIA ROSA DE ARAUJO",
+        "valorReceita": 10000
+      },
+      {
+        "nrReciboEleitoral": "000651160011RJ000005E",
+        "dtReceita": "2016-08-16",
+        "nomeDoador": "JOSE ROBERTO BROM DE LUNA",
+        "valorReceita": 4800
+      },
+      {
+        "nrReciboEleitoral": "000651160011RJ000002E",
+        "dtReceita": "2016-08-17",
+        "nomeDoador": "CARLOS HENRIQUE TIBIRI\u00c7A MIRANDA",
+        "valorReceita": 2100
+      }
+    ]
   },
   {
     "id": "190000003384",
     "nome": "MARCELO FREIXO",
     "numero": "50",
     "partido": "PSOL",
-    "slogan": "MUDAR \u00c9 POSS\u00cdVEL"
+    "slogan": "MUDAR \u00c9 POSS\u00cdVEL",
+    "totalArrecadado": 492609.92,
+    "fundoPartidario": 220000,
+    "pessoasFisicas": 65320,
+    "numeroDoadores": 2672,
+    "apoioMedio": 184.36,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000501160011RJ003018E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "Dire\u00e7\u00e3o Nacional",
+        "valorReceita": 100000
+      },
+      {
+        "nrReciboEleitoral": "000501160011RJ003011E",
+        "dtReceita": "2016-08-11",
+        "nomeDoador": "Dire\u00e7\u00e3o Estadual\/Distrital",
+        "valorReceita": 95000
+      },
+      {
+        "nrReciboEleitoral": "000501160011RJ003051E",
+        "dtReceita": "2016-08-16",
+        "nomeDoador": "Dire\u00e7\u00e3o Estadual\/Distrital",
+        "valorReceita": 18800
+      },
+      {
+        "nrReciboEleitoral": "000501160011RJ003074E",
+        "dtReceita": "2016-09-12",
+        "nomeDoador": "THASSIO G",
+        "valorReceita": 10000
+      },
+      {
+        "nrReciboEleitoral": "000501160011RJ003006E",
+        "dtReceita": "2016-08-16",
+        "nomeDoador": "THASSIO G",
+        "valorReceita": 10000
+      }
+    ]
   },
   {
     "id": "190000011364",
     "nome": "OSORIO",
     "numero": "45",
     "partido": "PSDB",
-    "slogan": "RIO DE OPORTUNIDADES E DIREITOS"
+    "slogan": "RIO DE OPORTUNIDADES E DIREITOS",
+    "totalArrecadado": 746000,
+    "fundoPartidario": 29400,
+    "pessoasFisicas": 671600,
+    "numeroDoadores": 35,
+    "apoioMedio": 21314.2857143,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000451160011RJ000005E",
+        "dtReceita": "2016-08-25",
+        "nomeDoador": "CELIO PINTO DE ALMEIDA",
+        "valorReceita": 100000
+      },
+      {
+        "nrReciboEleitoral": "000451160011RJ000016E",
+        "dtReceita": "2016-09-02",
+        "nomeDoador": "ALBERTO CARLOS PECEGUEIRO DO AMARAL",
+        "valorReceita": 100000
+      },
+      {
+        "nrReciboEleitoral": "000451160011RJ000027E",
+        "dtReceita": "2016-09-12",
+        "nomeDoador": "GILBERTO ANDRE BUFFARA",
+        "valorReceita": 50000
+      },
+      {
+        "nrReciboEleitoral": "000451160011RJ000012E",
+        "dtReceita": "2016-08-31",
+        "nomeDoador": "ROGERIO CHOR",
+        "valorReceita": 50000
+      },
+      {
+        "nrReciboEleitoral": "000451160011RJ000026E",
+        "dtReceita": "2016-09-12",
+        "nomeDoador": "ANTONIO CLAUDIO LAGE BUFFARA",
+        "valorReceita": 50000
+      }
+    ]
   },
   {
     "id": "190000008414",
     "nome": "PEDRO PAULO",
     "numero": "15",
     "partido": "PMDB",
-    "slogan": "JUNTOS PELO RIO"
+    "slogan": "JUNTOS PELO RIO",
+    "totalArrecadado": 7298135.27,
+    "fundoPartidario": 4306794.31,
+    "pessoasFisicas": 2978215.96,
+    "numeroDoadores": 1671,
+    "apoioMedio": 4367.52559545,
+    "maioresApoiadores": [
+      {
+        "nrReciboEleitoral": "000151160011RJ000097E",
+        "dtReceita": "2016-08-17",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 410000
+      },
+      {
+        "nrReciboEleitoral": "000151160011RJ000062E",
+        "dtReceita": "2016-08-17",
+        "nomeDoador": "MARCELO H L GON\u00c7ALVES",
+        "valorReceita": 200000
+      },
+      {
+        "nrReciboEleitoral": "000151160011RJ000155E",
+        "dtReceita": "2016-08-23",
+        "nomeDoador": "Dire\u00e7\u00e3o Estadual\/Distrital",
+        "valorReceita": 200000
+      },
+      {
+        "nrReciboEleitoral": "000151160011RJ000303E",
+        "dtReceita": "2016-09-09",
+        "nomeDoador": "Dire\u00e7\u00e3o Estadual\/Distrital",
+        "valorReceita": 170000
+      },
+      {
+        "nrReciboEleitoral": "000151160011RJ000288E",
+        "dtReceita": "2016-09-05",
+        "nomeDoador": "SERGIO LUIZ CORTES DA SILVEIRA",
+        "valorReceita": 150000
+      }
+    ]
   },
   {
     "id": "190000024265",
     "nome": "THELMA BASTOS",
     "numero": "29",
     "partido": "PCO",
-    "slogan": "PCO"
+    "slogan": "PCO",
+    "totalArrecadado": null,
+    "fundoPartidario": null,
+    "pessoasFisicas": null,
+    "numeroDoadores": null,
+    "apoioMedio": false,
+    "maioresApoiadores": []
   }
 ]
