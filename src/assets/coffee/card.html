@@ -1,0 +1,27 @@
+<h2>{{ ngCandidato.nome }}</h2>
+<div>
+  <ul>
+    <li>
+      Total arrecadado: {{ ngCandidato.totalArrecadado | currency : 'R$'}}
+    </li>
+    <li>
+      Fundo partidário: {{ ngCandidato.fundoPartidario | currency : 'R$'}}
+    </li>
+    <li>
+      Pessoas físicas: {{ ngCandidato.pessoasFisicas | currency : 'R$'}}
+    </li>
+    <li>
+      Número de doadores: {{ ngCandidato.numeroDoadores | currency : 'R$'}}
+    </li>
+    <li>
+      Apoio médio: {{ ngCandidato.apoioMedio | currency : 'R$'}}
+    </li>
+  </ul>
+  <h3>Maiores apoiadores</h3>
+  <ul>
+    <li ng-repeat="doacao in ngCandidato.maioresApoiadores">
+      {{ doacao.nomeDoador }}: {{ doacao.valorReceita | currency : 'R$'}}<br/>
+      Data: {{ doacao.dtReceita }} / {{ doacao.nrReciboEleitoral }}
+    </li>
+  </ul>
+</div>

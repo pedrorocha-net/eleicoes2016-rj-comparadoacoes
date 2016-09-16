@@ -48,6 +48,12 @@ h1 {
         height: 30px;
       }
     }
+
+    &.selecao {
+      img {
+        border-color: #F90;
+      }
+    }
   }
 }
 

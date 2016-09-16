@@ -26,70 +26,48 @@
 
 <body ng-app="app" ng-controller="PageController">
 
-  <div class="container marketing">
+<div class="container marketing">
 
-    <h1>Comparando Campanhas</h1>
+  <h1>Comparando Campanhas</h1>
 
-    <section id="candidatos" class="row">
-      <figure ng-repeat="candidato in candidatos" class="col-xs-4 col-sm-2 col-md-1">
-        <img class="img-circle"
-             ng-src="http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/foto/2/{{candidato.id}}"
-             alt="{{candidato.nome}}">
-        <h2>{{candidato.nome}}</h2>
-      </figure>
-    </section>
+  <section id="candidatos" class="row">
+    <figure ng-repeat="candidato in candidatos"
+            ng-class="(candidato.id == selecao1.id) || (candidato.id == selecao2.id)  ? 'selecao' : ''"
+            ng-click="selecionar(candidato)"
+            class="col-xs-4 col-sm-2 col-md-1">
+      <img class="img-circle"
+           ng-src="http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/foto/2/{{candidato.id}}"
+           alt="{{candidato.nome}}">
+      <h2>{{candidato.nome}}</h2>
+    </figure>
+  </section>
 
 
-    <section id="cards" class="row">
-      <div class="well col-md-8 col-md-offset-2">
+  <section id="cards" class="row">
+    <div class="well col-md-8 col-md-offset-2">
 
-        <div class="col-md-6">
-          <h2>Beltrano</h2>
-          <ul>
-            <li>Total arrecadado: R$1.000.000.00</li>
-            <li>Fundo partidário: R$1.000.000.00</li>
-            <li>Pessoas físicas: R$1.000.000.00</li>
-            <li>Número de doadores: 40098</li>
-            <li>Apoio médio: R$100,00</li>
-          </ul>
-          <h3>Maiores apoiadores</h3>
-          <ul>
-            <li>pessoa 1: R$150,00</li>
-            <li>pessoa 1: R$150,00</li>
-            <li>pessoa 1: R$150,00</li>
-            <li>pessoa 1: R$150,00</li>
-            <li>pessoa 2: R$50,00</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <h2>Fulano</h2>
-          <ul>
-            <li>Total arrecadado: R$1.000.000.00</li>
-            <li>Fundo partidário: R$1.000.000.00</li>
-            <li>Pessoas físicas: R$1.000.000.00</li>
-            <li>Número de doadores: 40098</li>
-            <li>Apoio médio: R$100,00</li>
-          </ul>
-          <h3>Maiores apoiadores</h3>
-          <ul>
-            <li>pessoa 1: R$150,00</li>
-            <li>pessoa 2: R$50,00</li>
-            <li>pessoa 2: R$50,00</li>
-            <li>pessoa 2: R$50,00</li>
-          </ul>
-        </div>
-
+      <div class="col-md-6">
+        <h2 ng-if="!selecao1">Selecione o candidato 1</h2>
+        <div ng-if="selecao1" card ng-candidato="selecao1"></div>
       </div>
-    </section>
 
-  </div>
+      <div class="col-md-6">
+        <h2 ng-if="!selecao2">Selecione o candidato 2</h2>
+        <div ng-if="selecao2" card ng-candidato="selecao2"></div>
+      </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
-  <script src="assets/js/app.js"></script>
+    </div>
+  </section>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/templates.js"></script>
 </body>
 </html>
