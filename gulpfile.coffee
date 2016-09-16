@@ -51,7 +51,7 @@ gulp.task 'partials', () ->
   gulp.src(sources.html)
   .pipe($.angularTemplatecache(
     "standalone": true
-    "root": '/assets/js'
+    "root": 'assets/js'
   ))
   .pipe(gulp.dest(destinations.js))
 
