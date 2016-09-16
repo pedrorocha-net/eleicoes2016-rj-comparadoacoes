@@ -32,7 +32,7 @@
 
   <section id="candidatos" class="row">
     <figure ng-repeat="candidato in candidatos"
-            ng-class="(candidato.id == selecao1.id) || (candidato.id == selecao2.id)  ? 'selecao' : ''"
+            ng-class="(candidato.id == selecao1.id) || (candidato.id == selecao2.id) || (candidato.id == selecao3.id)  ? 'selecao' : ''"
             ng-click="selecionar(candidato)"
             class="col-xs-4 col-sm-2 col-md-1">
       <img class="img-circle"
@@ -44,16 +44,21 @@
 
 
   <section id="cards" class="row">
-    <div class="well col-md-8 col-md-offset-2">
+    <div class="well col-md-12">
 
-      <div class="col-md-6">
+      <div class="col-md-4">
         <h2 ng-if="!selecao1">Selecione o candidato 1</h2>
         <div ng-if="selecao1" card ng-candidato="selecao1"></div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-4">
         <h2 ng-if="!selecao2">Selecione o candidato 2</h2>
         <div ng-if="selecao2" card ng-candidato="selecao2"></div>
+      </div>
+
+      <div class="col-md-4">
+        <h2 ng-if="!selecao3">Selecione o candidato 3</h2>
+        <div ng-if="selecao3" card ng-candidato="selecao3"></div>
       </div>
 
     </div>
