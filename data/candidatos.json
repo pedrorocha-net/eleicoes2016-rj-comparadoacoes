@@ -40,6 +40,36 @@
         "dtReceita": "2016-09-10",
         "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
         "valorReceita": 2300
+      },
+      {
+        "nrReciboEleitoral": "000181160011RJ000005E",
+        "dtReceita": "2016-09-03",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 2000
+      },
+      {
+        "nrReciboEleitoral": "000181160011RJ000008E",
+        "dtReceita": "2016-09-07",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 1300
+      },
+      {
+        "nrReciboEleitoral": "000181160011RJ000002E",
+        "dtReceita": "2016-08-29",
+        "nomeDoador": "RICARDO ABRAMOVAY",
+        "valorReceita": 1000
+      },
+      {
+        "nrReciboEleitoral": "000181160011RJ000009E",
+        "dtReceita": "2016-09-07",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 590
+      },
+      {
+        "nrReciboEleitoral": "000181160011RJ000011E",
+        "dtReceita": "2016-09-10",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 550
       }
     ]
   },
@@ -84,6 +114,36 @@
         "dtReceita": "2016-08-31",
         "nomeDoador": "MARCO A. P. CABRAL",
         "valorReceita": 2000
+      },
+      {
+        "nrReciboEleitoral": "000301160011RJ000017E",
+        "dtReceita": "2016-09-02",
+        "nomeDoador": "CARMEN PIRES MIGUELES",
+        "valorReceita": 1200
+      },
+      {
+        "nrReciboEleitoral": "000301160011RJ000019E",
+        "dtReceita": "2016-09-02",
+        "nomeDoador": "CESAR AUGUSTO FURTADO FRANCO",
+        "valorReceita": 1000
+      },
+      {
+        "nrReciboEleitoral": "000301160011RJ000022E",
+        "dtReceita": "2016-09-08",
+        "nomeDoador": "JO\u00c3O PEDRO SCHARA FRANCESE",
+        "valorReceita": 1000
+      },
+      {
+        "nrReciboEleitoral": "000301160011RJ000018E",
+        "dtReceita": "2016-09-02",
+        "nomeDoador": "LILIAN PEREIRA LIMA",
+        "valorReceita": 1000
+      },
+      {
+        "nrReciboEleitoral": "000301160011RJ000020E",
+        "dtReceita": "2016-09-02",
+        "nomeDoador": "MARCO TULIO FUND\u00c3O ZANINI",
+        "valorReceita": 1000
       }
     ]
   },
@@ -128,6 +188,36 @@
         "dtReceita": "2016-08-29",
         "nomeDoador": "FELIPE HERRERO RODRIGUES",
         "valorReceita": 10000
+      },
+      {
+        "nrReciboEleitoral": "000101160011RJ000005E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "GILSON CARDOSO LUCAS",
+        "valorReceita": 5000
+      },
+      {
+        "nrReciboEleitoral": "000101160011RJ000004E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "VALDINEI SALDANHA PEREIRA",
+        "valorReceita": 2000
+      },
+      {
+        "nrReciboEleitoral": "000101160011RJ000008E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "CLAUDINEI APARECIDA DE ALMEIDA",
+        "valorReceita": 2000
+      },
+      {
+        "nrReciboEleitoral": "000101160011RJ000007E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "NILO PEREIRA DE ALBUQUERQUE",
+        "valorReceita": 2000
+      },
+      {
+        "nrReciboEleitoral": "000101160011RJ000009E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "JOSE COSME BATISTA LOPES ",
+        "valorReceita": 1500
       }
     ]
   },
@@ -172,6 +262,36 @@
         "dtReceita": "2016-08-17",
         "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
         "valorReceita": 800
+      },
+      {
+        "nrReciboEleitoral": "000161160011RJ000011E",
+        "dtReceita": "2016-09-06",
+        "nomeDoador": "SILVIO SINEDIO PINHEIRO",
+        "valorReceita": 500
+      },
+      {
+        "nrReciboEleitoral": "000161160011RJ000005E",
+        "dtReceita": "2016-08-18",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 240
+      },
+      {
+        "nrReciboEleitoral": "000161160011RJ000008E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "FERNANDO CORDEIRO BARBOSA",
+        "valorReceita": 150
+      },
+      {
+        "nrReciboEleitoral": "000161160011RJ000010E",
+        "dtReceita": "2016-09-06",
+        "nomeDoador": "GERALDO S",
+        "valorReceita": 100
+      },
+      {
+        "nrReciboEleitoral": "000161160011RJ000009E",
+        "dtReceita": "2016-09-01",
+        "nomeDoador": "MAURICIO TEIXEIRA ZANAZI",
+        "valorReceita": 50
       }
     ]
   },
@@ -292,6 +412,36 @@
         "dtReceita": "2016-08-17",
         "nomeDoador": "CARLOS HENRIQUE TIBIRI\u00c7A MIRANDA",
         "valorReceita": 2100
+      },
+      {
+        "nrReciboEleitoral": "000651160011RJ000042E",
+        "dtReceita": "2016-09-13",
+        "nomeDoador": "ALOISIO TIBIRI\u00c7A MIRANDA",
+        "valorReceita": 2000
+      },
+      {
+        "nrReciboEleitoral": "000651160011RJ000004E",
+        "dtReceita": "2016-08-16",
+        "nomeDoador": "SEVERINO EDMUNDO DE AQUINO",
+        "valorReceita": 1407.99
+      },
+      {
+        "nrReciboEleitoral": "000651160011RJ000008E",
+        "dtReceita": "2016-08-16",
+        "nomeDoador": "MANOEL SEVERINO DOS SANTOS",
+        "valorReceita": 1407.99
+      },
+      {
+        "nrReciboEleitoral": "000651160011RJ000010E",
+        "dtReceita": "2016-08-16",
+        "nomeDoador": "ALEXANDRE DE SOUZA SANTINI RODRIGUES",
+        "valorReceita": 1407.99
+      },
+      {
+        "nrReciboEleitoral": "000651160011RJ000009E",
+        "dtReceita": "2016-08-16",
+        "nomeDoador": "LUIS AUGUSTO ARAUJO MARQUES",
+        "valorReceita": 1407.99
       }
     ]
   },
@@ -336,6 +486,36 @@
         "dtReceita": "2016-08-16",
         "nomeDoador": "THASSIO G",
         "valorReceita": 10000
+      },
+      {
+        "nrReciboEleitoral": "000501160011RJ003004E",
+        "dtReceita": "2016-08-11",
+        "nomeDoador": "JO\u00c3O CARLOS DANIEL",
+        "valorReceita": 6000
+      },
+      {
+        "nrReciboEleitoral": "000501160011RJ003047E",
+        "dtReceita": "2016-08-16",
+        "nomeDoador": "Dire\u00e7\u00e3o Estadual\/Distrital",
+        "valorReceita": 6000
+      },
+      {
+        "nrReciboEleitoral": "000501160011RJ003953E",
+        "dtReceita": "2016-08-19",
+        "nomeDoador": "ELEI\u00c7\u00c3O 2016 PAULO PINHEIRO VEREADOR",
+        "valorReceita": 5751.3
+      },
+      {
+        "nrReciboEleitoral": "000501160011RJ003075E",
+        "dtReceita": "2016-09-12",
+        "nomeDoador": "MARIANA MOREAU",
+        "valorReceita": 5000
+      },
+      {
+        "nrReciboEleitoral": "000501160011RJ003002E",
+        "dtReceita": "2016-08-05",
+        "nomeDoador": "CLARA MACEDO SOARES DE ARAUJO",
+        "valorReceita": 5000
       }
     ]
   },
@@ -380,6 +560,36 @@
         "dtReceita": "2016-09-12",
         "nomeDoador": "ANTONIO CLAUDIO LAGE BUFFARA",
         "valorReceita": 50000
+      },
+      {
+        "nrReciboEleitoral": "000451160011RJ000001E",
+        "dtReceita": "2016-08-24",
+        "nomeDoador": "CARLOS ROBERTO DE FIGUEIREDO OSORIO",
+        "valorReceita": 45000
+      },
+      {
+        "nrReciboEleitoral": "000451160011RJ000002E",
+        "dtReceita": "2016-08-24",
+        "nomeDoador": "JORGE DA SILVA SALES",
+        "valorReceita": 30000
+      },
+      {
+        "nrReciboEleitoral": "000451160011RJ000022E",
+        "dtReceita": "2016-09-06",
+        "nomeDoador": "SYLVIA MARIA DA GLORIA DE MELLO NABUCO",
+        "valorReceita": 30000
+      },
+      {
+        "nrReciboEleitoral": "000451160011RJ000023E",
+        "dtReceita": "2016-09-08",
+        "nomeDoador": "Dire\u00e7\u00e3o Municipal\/Comiss\u00e3o Provis\u00f3ria",
+        "valorReceita": 29400
+      },
+      {
+        "nrReciboEleitoral": "000451160011RJ000034E",
+        "dtReceita": "2016-09-13",
+        "nomeDoador": "LUCIA NABUCO DE ALMEIDA BRAGA",
+        "valorReceita": 25000
       }
     ]
   },
@@ -424,6 +634,36 @@
         "dtReceita": "2016-09-05",
         "nomeDoador": "SERGIO LUIZ CORTES DA SILVEIRA",
         "valorReceita": 150000
+      },
+      {
+        "nrReciboEleitoral": "000151160011RJ000218E",
+        "dtReceita": "2016-08-24",
+        "nomeDoador": "FORTUNATO FERNANDO LETA",
+        "valorReceita": 150000
+      },
+      {
+        "nrReciboEleitoral": "000151160011RJ000091E",
+        "dtReceita": "2016-08-17",
+        "nomeDoador": "Dire\u00e7\u00e3o Estadual\/Distrital",
+        "valorReceita": 150000
+      },
+      {
+        "nrReciboEleitoral": "000151160011RJ000298E",
+        "dtReceita": "2016-09-09",
+        "nomeDoador": "ROBSON RODRIGUES GOUVEIA",
+        "valorReceita": 150000
+      },
+      {
+        "nrReciboEleitoral": "000151160011RJ000067E",
+        "dtReceita": "2016-08-17",
+        "nomeDoador": "AZIS CHIDID NETO",
+        "valorReceita": 113000
+      },
+      {
+        "nrReciboEleitoral": "000151160011RJ000278E",
+        "dtReceita": "2016-09-02",
+        "nomeDoador": "RENATO RIBEIRO MACHADO",
+        "valorReceita": 110000
       }
     ]
   },

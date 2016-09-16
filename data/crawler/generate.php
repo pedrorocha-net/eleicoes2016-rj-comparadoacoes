@@ -42,7 +42,7 @@ foreach ($candidatos as $candidato_obj) {
     return $b['valorReceita'] - $a['valorReceita'];
   });
 
-  $item['maioresApoiadores'] = array_slice($doacoes, 0, 5);
+  $item['maioresApoiadores'] = array_slice($doacoes, 0, 10);
   $candidatos_novo[] = $item;
 }
 
