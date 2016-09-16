@@ -39,6 +39,8 @@ h1 {
         #candidatos figure h2 {
           font-size: .8em;
           height: 30px; } }
+    #candidatos figure.selecao img {
+      border-color: #F90; }
 
 #cards {
   margin-top: 30px; }
