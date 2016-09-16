@@ -1,0 +1,19 @@
+{
+  "name": "eleicoes2016-rj-comparadoacoes",
+  "version": "0.0.1",
+  "author": "Pedro Rocha <pedrogomesrocha@gmail.com>",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.10",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-coffee": "^2.2.0",
+    "gulp-coffeelint": "^0.4.0",
+    "gulp-concat": "^2.4.3",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-size": "^1.1.0",
+    "gulp-util": "^3.0.1",
+    "run-sequence": "^1.0.2"
+  }
+}
