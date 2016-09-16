@@ -85,6 +85,10 @@ gulp.task 'build', [
 ]
 
 
+gulp.task 'deploy', () ->
+  gulp.src('./dist/**/*')
+  .pipe($.ghPages())
+
 ###
   Default command to run when calling just "gulp"
 ###
