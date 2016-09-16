@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Comparando Candidaturas</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script
+    src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body ng-app="app" ng-controller="PageController">
+
+  <div class="container marketing">
+
+    <h1>Comparando Campanhas</h1>
+
+    <section id="candidatos" class="row">
+      <figure ng-repeat="candidato in candidatos" class="col-md-1">
+        <img class="img-circle"
+             ng-src="http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/foto/2/{{candidato.id}}"
+             alt="{{candidato.nome}}">
+        <h2>{{candidato.nome}}</h2>
+      </figure>
+    </section>
+
+
+    <section id="cards" class="row">
+      <div class="well col-md-8 col-md-offset-2">
+
+        <div class="col-md-6">
+          <h2>Beltrano</h2>
+          <ul>
+            <li>Total arrecadado: R$1.000.000.00</li>
+            <li>Fundo partidário: R$1.000.000.00</li>
+            <li>Pessoas físicas: R$1.000.000.00</li>
+            <li>Número de doadores: 40098</li>
+            <li>Apoio médio: R$100,00</li>
+          </ul>
+          <h3>Maiores apoiadores</h3>
+          <ul>
+            <li>pessoa 1: R$150,00</li>
+            <li>pessoa 1: R$150,00</li>
+            <li>pessoa 1: R$150,00</li>
+            <li>pessoa 1: R$150,00</li>
+            <li>pessoa 2: R$50,00</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h2>Fulano</h2>
+          <ul>
+            <li>Total arrecadado: R$1.000.000.00</li>
+            <li>Fundo partidário: R$1.000.000.00</li>
+            <li>Pessoas físicas: R$1.000.000.00</li>
+            <li>Número de doadores: 40098</li>
+            <li>Apoio médio: R$100,00</li>
+          </ul>
+          <h3>Maiores apoiadores</h3>
+          <ul>
+            <li>pessoa 1: R$150,00</li>
+            <li>pessoa 2: R$50,00</li>
+            <li>pessoa 2: R$50,00</li>
+            <li>pessoa 2: R$50,00</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
