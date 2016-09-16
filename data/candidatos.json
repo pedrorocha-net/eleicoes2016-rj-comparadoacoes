@@ -1,0 +1,79 @@
+[
+  {
+    "id": "190000018866",
+    "nome": "ALESSANDRO MOLON",
+    "numero": "18",
+    "partido": "REDE",
+    "slogan": "TODOS PELO RIO"
+  },
+  {
+    "id": "190000007450",
+    "nome": "CARMEN MIGUELES",
+    "numero": "30",
+    "partido": "NOVO",
+    "slogan": "NOVO"
+  },
+  {
+    "id": "190000017952",
+    "nome": "CRIVELLA",
+    "numero": "10",
+    "partido": "PRB",
+    "slogan": "POR UM RIO MAIS HUMANO"
+  },
+  {
+    "id": "190000019572",
+    "nome": "CYRO GARCIA",
+    "numero": "16",
+    "partido": "PSTU",
+    "slogan": "PSTU"
+  },
+  {
+    "id": "190000011736",
+    "nome": "FL\u00c1VIO BOLSONARO",
+    "numero": "20",
+    "partido": "PSC",
+    "slogan": "O RIO PRECISA DE FOR\u00c7A PARA MUDAR"
+  },
+  {
+    "id": "190000024651",
+    "nome": "INDIO DA COSTA",
+    "numero": "55",
+    "partido": "PSD",
+    "slogan": "JUNTOS PELO CARIOCA"
+  },
+  {
+    "id": "190000007222",
+    "nome": "JANDIRA FEGHALI",
+    "numero": "65",
+    "partido": "PC DO B",
+    "slogan": "RIO EM COMUM"
+  },
+  {
+    "id": "190000003384",
+    "nome": "MARCELO FREIXO",
+    "numero": "50",
+    "partido": "PSOL",
+    "slogan": "MUDAR \u00c9 POSS\u00cdVEL"
+  },
+  {
+    "id": "190000011364",
+    "nome": "OSORIO",
+    "numero": "45",
+    "partido": "PSDB",
+    "slogan": "RIO DE OPORTUNIDADES E DIREITOS"
+  },
+  {
+    "id": "190000008414",
+    "nome": "PEDRO PAULO",
+    "numero": "15",
+    "partido": "PMDB",
+    "slogan": "JUNTOS PELO RIO"
+  },
+  {
+    "id": "190000024265",
+    "nome": "THELMA BASTOS",
+    "numero": "29",
+    "partido": "PCO",
+    "slogan": "PCO"
+  }
+]

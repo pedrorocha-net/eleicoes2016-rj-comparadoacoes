@@ -5,13 +5,15 @@ include_once './Candidato.php';
 
 $doacoes = [];
 
-foreach (Utils::getCandidatos() as $candidato) {
-  $Candidato = new Candidato($candidato['id']);
+$candidatos = json_decode(file_get_contents('../candidatos.json'));
+
+foreach ($candidatos as $candidato_obj) {
+  $Candidato = new Candidato($candidato_obj->id);
 
   $receitas = $Candidato->getReceitas();
   foreach ($receitas as $receita) {
     $doacao = [];
-    $doacao['candidato_id'] = $candidato['id'];
+    $doacao['candidato_id'] = $candidato_obj->id;
     $doacao['candidato_nome'] = $Candidato->detalhes->nomeUrna;
     $doacao['partido_id'] = $Candidato->candidatura->nrCandidato;
     $doacao['partido_nome'] = $Candidato->candidatura->siglaPartido;
