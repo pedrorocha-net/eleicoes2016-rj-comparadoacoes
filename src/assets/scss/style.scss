@@ -33,7 +33,7 @@ h1 {
         height: 110px;
       }
       @include respond-to('md') {
-        height: 90px;
+        height: 110px;
       }
 
       &:hover {
