@@ -59,7 +59,7 @@ foreach ($Cidade->candidatos as $candidato_obj) {
       }
     }
   }
-  $item['apoioMedio'] = $item['totalContribuicoesFinanceiras'] / $item['contribuicoesFinanceirasQtd'];
+  $item['apoioMedio'] = $item['contribuicoesFinanceirasTotal'] / $item['contribuicoesFinanceirasQtd'];
   $doacoes = array_values($doacoes);
 
   usort($doacoes, function ($a, $b) {
