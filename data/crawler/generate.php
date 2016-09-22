@@ -42,16 +42,18 @@ foreach ($Cidade->candidatos as $candidato_obj) {
   foreach ($receitas as $receita) {
     $Doacao = new Doacao($receita);
     $doacao_formatada = $Doacao->formatar();
-    if ($doacao_formatada['fonteOrigem'] == 'Fundo Partidário') {
-      $item['fundoPartidario'] += $doacao_formatada['valorReceita'];
-      $item['fundoPartidarioQtd']++;
-    }
-    else {
-      if (isset($doacoes[$doacao_formatada['nomeDoador']])) {
-        $doacoes[$doacao_formatada['nomeDoador']]['valorReceita'] += $doacao_formatada['valorReceita'];
+    if ($doacao_formatada['especieRecurso'] != 'Estimado') {
+      if ($doacao_formatada['fonteOrigem'] == 'Fundo Partidário') {
+        $item['fundoPartidario'] += $doacao_formatada['valorReceita'];
+        $item['fundoPartidarioQtd']++;
       }
       else {
-        $doacoes[$doacao_formatada['nomeDoador']] = $doacao_formatada;
+        if (isset($doacoes[$doacao_formatada['nomeDoador']])) {
+          $doacoes[$doacao_formatada['nomeDoador']]['valorReceita'] += $doacao_formatada['valorReceita'];
+        }
+        else {
+          $doacoes[$doacao_formatada['nomeDoador']] = $doacao_formatada;
+        }
       }
     }
   }

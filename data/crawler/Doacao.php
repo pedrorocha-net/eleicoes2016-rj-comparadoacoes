@@ -25,6 +25,7 @@ class Doacao {
     else {
       $nome_doador = $this->obj->nomeDoador;
     }
+    $item['especieRecurso'] = $this->obj->especieRecurso;
     $item['nomeDoador'] = $nome_doador;
     $item['valorReceita'] = $this->obj->valorReceita;
     $item['fonteOrigem'] = $this->obj->fonteOrigem;
