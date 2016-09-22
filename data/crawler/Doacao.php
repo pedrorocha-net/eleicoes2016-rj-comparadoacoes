@@ -27,6 +27,7 @@ class Doacao {
     }
     $item['nomeDoador'] = $nome_doador;
     $item['valorReceita'] = $this->obj->valorReceita;
+    $item['fonteOrigem'] = $this->obj->fonteOrigem;
     return $item;
   }
 }
