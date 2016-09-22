@@ -1,26 +1,33 @@
 <?php
 
 include_once './Utils.php';
+include_once './Cidade.php';
 include_once './Candidato.php';
 
-$doacoes = [];
+$arquivo_processado = 'candidatos_dados_processados.json';
 
-$candidatos = json_decode(file_get_contents('../candidatos.json'));
+/**
+ * Códigos das cidades podem ser vistos na URL abaixo(atenção ao código do
+ * estado):
+ * http://divulgacandcontas.tse.jus.br/divulga/rest/v1/eleicao/buscar/RJ/2/municipios
+ */
+$codigo_cidade = 60011; // Rio de Janeiro - RJ
+$Cidade = new Cidade($codigo_cidade);
 
 // Apagar conteúdo sobre candidatos
-file_put_contents('../candidatos.json', '');
+file_put_contents('../' . $arquivo_processado, '');
 
 $candidatos_novo = [];
 
-foreach ($candidatos as $candidato_obj) {
+foreach ($Cidade->candidatos as $candidato_obj) {
   $Candidato = new Candidato($candidato_obj->id);
 
   $item = [];
   $item['id'] = $candidato_obj->id;
-  $item['nome'] = $candidato_obj->nome;
+  $item['nome'] = $candidato_obj->nomeUrna;
   $item['numero'] = $candidato_obj->numero;
   $item['partido'] = $candidato_obj->partido;
-  $item['slogan'] = $candidato_obj->slogan;
+  $item['slogan'] = $candidato_obj->nomeColigacao;
   $item['totalArrecadado'] = $Candidato->getDadosConsolidados()->totalRecebido;
   $item['fundoPartidario'] = $Candidato->getDadosConsolidados()->totalPartidos;
   $item['pessoasFisicas'] = $Candidato->getDadosConsolidados()->totalReceitaPF;
@@ -48,6 +55,6 @@ foreach ($candidatos as $candidato_obj) {
 
 $json_code = json_encode($candidatos_novo);
 
-file_put_contents('../candidatos.json', $json_code);
+file_put_contents('../' . $arquivo_processado, $json_code);
 
 ?>
