@@ -5,7 +5,8 @@
 
 @App.controller 'PageController', ($scope, $http) ->
   $http.get('https://raw.githubusercontent.com/pedrorocha-net/' +
-      'eleicoes2016-rj-comparadoacoes/master/data/candidatos.json'
+      'eleicoes2016-rj-comparadoacoes/master/data/' +
+      'candidatos_dados_processados.json'
   ).then (result) ->
     $scope.candidatos = result.data
     $scope.selecao1 = null
