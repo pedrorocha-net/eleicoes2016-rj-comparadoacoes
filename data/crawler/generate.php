@@ -3,6 +3,7 @@
 include_once './Utils.php';
 include_once './Cidade.php';
 include_once './Candidato.php';
+include_once './Doacao.php';
 
 $arquivo_processado = 'candidatos_dados_processados.json';
 
@@ -28,22 +29,33 @@ foreach ($Cidade->candidatos as $candidato_obj) {
   $item['numero'] = $candidato_obj->numero;
   $item['partido'] = $candidato_obj->partido;
   $item['slogan'] = $candidato_obj->nomeColigacao;
-  $item['totalArrecadado'] = $Candidato->getDadosConsolidados()->totalRecebido;
-  $item['fundoPartidario'] = $Candidato->getDadosConsolidados()->totalPartidos;
-  $item['pessoasFisicas'] = $Candidato->getDadosConsolidados()->totalReceitaPF;
-  $item['numeroDoadores'] = $Candidato->getDadosConsolidados()->qtdRecebido;
-  $item['apoioMedio'] = $item['totalArrecadado'] / $item['numeroDoadores'];
+  $item['totalFinanceiro'] = $Candidato->getDadosConsolidados()->totalFinanceiro;
+  $item['totalFinanceiroQtd'] = $Candidato->getDadosConsolidados()->qtdFinanceiro;
+  $item['apoioMedio'] = $item['totalFinanceiro'] / $item['totalFinanceiroQtd'];
+  $item['fundoPartidario'] = 0;
+  $item['fundoPartidarioQtd'] = 0;
+  $item['pessoasFisicas'] = $Candidato->getDadosConsolidados()->totalReceitaPF + $Candidato->getDadosConsolidados()->totalInternet;
+  $item['pessoasFisicasQtd'] = $Candidato->getDadosConsolidados()->qtdReceitaPF + $Candidato->getDadosConsolidados()->qtdInternet;
   $receitas = $Candidato->getReceitas();
 
   $doacoes = [];
   foreach ($receitas as $receita) {
-    $doacao = [];
-    $doacao['nrReciboEleitoral'] = $receita->nrReciboEleitoral;
-    $doacao['dtReceita'] = $receita->dtReceita;
-    $doacao['nomeDoador'] = $receita->nomeDoador;
-    $doacao['valorReceita'] = $receita->valorReceita;
-    $doacoes[] = $doacao;
+    $Doacao = new Doacao($receita);
+    $doacao_formatada = $Doacao->formatar();
+    if ($doacao_formatada['fonteOrigem'] == 'Fundo Partidário') {
+      $item['fundoPartidario'] += $doacao_formatada['valorReceita'];
+      $item['fundoPartidarioQtd']++;
+    }
+    else {
+      if (isset($doacoes[$doacao_formatada['nomeDoador']])) {
+        $doacoes[$doacao_formatada['nomeDoador']]['valorReceita'] += $doacao_formatada['valorReceita'];
+      }
+      else {
+        $doacoes[$doacao_formatada['nomeDoador']] = $doacao_formatada;
+      }
+    }
   }
+  $doacoes = array_values($doacoes);
 
   usort($doacoes, function ($a, $b) {
     return $b['valorReceita'] - $a['valorReceita'];
