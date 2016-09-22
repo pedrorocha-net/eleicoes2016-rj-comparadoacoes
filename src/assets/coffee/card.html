@@ -1,9 +1,9 @@
 <h2>{{ ngCandidato.nome }}</h2>
 <div>
-  <table class="table table-condensed">
+  <table class="consolidado table table-condensed table-striped">
     <tr>
       <th>Total arrecadado</th>
-      <td>{{ ngCandidato.totalFinanceiro | currency : 'R$'}}</td>
+      <td>{{ ngCandidato.contribuicoesFinanceirasTotal + ngCandidato.fundoPartidario | currency : 'R$'}}</td>
     </tr>
     <tr>
       <th>Fundo partidário</th>
@@ -11,19 +11,20 @@
     </tr>
     <tr>
       <th>Pessoas físicas</th>
-      <td>{{ ngCandidato.pessoasFisicas | currency : 'R$'}}</td>
+      <td>{{ ngCandidato.contribuicoesFinanceirasTotal | currency : 'R$'}}</td>
     </tr>
     <tr>
-      <th>Número de doadores</th>
-      <td>{{ ngCandidato.pessoasFisicasQtd }}</td>
+      <th>Número de doadores (pessoas físicas)</th>
+      <td>{{ ngCandidato.contribuicoesFinanceirasQtd }}</td>
     </tr>
     <tr>
-      <th>Apoio médio</th>
+      <th>Apoio médio (por pessoas físicas)</th>
       <td>{{ ngCandidato.apoioMedio | currency : 'R$'}}</td>
     </tr>
   </table>
+
   <h3>Maiores apoiadores</h3>
-  <table class="table table-condensed">
+  <table class="table table-condensed table-striped">
     <tr ng-repeat="doacao in ngCandidato.maioresApoiadores">
       <td>{{ doacao.nomeDoador }}</td>
       <td>{{ doacao.valorReceita | currency : 'R$'}}</td>

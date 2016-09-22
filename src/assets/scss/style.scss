@@ -77,11 +77,24 @@ h1 {
   h2 {
     margin: 0 0 10px;
   }
+  h3 {
+    padding: 5px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #666;
+    background: #eee;
+  }
 }
 
 .card {
   background: #fff;
   padding: 15px;
+
+  .consolidado {
+    td {
+      text-align: right;
+    }
+  }
 }
 
 table {

@@ -29,9 +29,8 @@ foreach ($Cidade->candidatos as $candidato_obj) {
   $item['numero'] = $candidato_obj->numero;
   $item['partido'] = $candidato_obj->partido;
   $item['slogan'] = $candidato_obj->nomeColigacao;
-  $item['totalFinanceiro'] = $Candidato->getDadosConsolidados()->totalFinanceiro;
-  $item['totalFinanceiroQtd'] = $Candidato->getDadosConsolidados()->qtdFinanceiro;
-  $item['apoioMedio'] = $item['totalFinanceiro'] / $item['totalFinanceiroQtd'];
+  $item['contribuicoesFinanceirasTotal'] = 0;
+  $item['contribuicoesFinanceirasQtd'] = 0;
   $item['fundoPartidario'] = 0;
   $item['fundoPartidarioQtd'] = 0;
   $item['pessoasFisicas'] = $Candidato->getDadosConsolidados()->totalReceitaPF + $Candidato->getDadosConsolidados()->totalInternet;
@@ -48,6 +47,9 @@ foreach ($Cidade->candidatos as $candidato_obj) {
         $item['fundoPartidarioQtd']++;
       }
       else {
+        $item['contribuicoesFinanceirasQtd']++;
+        $item['contribuicoesFinanceirasTotal'] += $doacao_formatada['valorReceita'];
+
         if (isset($doacoes[$doacao_formatada['nomeDoador']])) {
           $doacoes[$doacao_formatada['nomeDoador']]['valorReceita'] += $doacao_formatada['valorReceita'];
         }
@@ -57,6 +59,7 @@ foreach ($Cidade->candidatos as $candidato_obj) {
       }
     }
   }
+  $item['apoioMedio'] = $item['totalContribuicoesFinanceiras'] / $item['contribuicoesFinanceirasQtd'];
   $doacoes = array_values($doacoes);
 
   usort($doacoes, function ($a, $b) {
