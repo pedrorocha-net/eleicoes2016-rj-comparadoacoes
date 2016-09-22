@@ -14,6 +14,7 @@
         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css"/>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,9 +27,9 @@
 
 <body ng-app="app" ng-controller="PageController">
 
-<div class="container marketing">
+<h1>Comparando Campanhas</h1>
 
-  <h1>Comparando Campanhas</h1>
+<div class="container">
 
   <section id="candidatos" class="row">
     <figure ng-repeat="candidato in candidatos"
@@ -42,23 +43,22 @@
     </figure>
   </section>
 
-
   <section id="cards" class="row">
-    <div class="well col-md-12">
+    <div class="col-md-12">
 
       <div class="col-md-4">
         <h2 ng-if="!selecao1">Selecione o candidato 1</h2>
-        <div ng-if="selecao1" card ng-candidato="selecao1"></div>
+        <div class="card" ng-if="selecao1" card ng-candidato="selecao1"></div>
       </div>
 
       <div class="col-md-4">
         <h2 ng-if="!selecao2">Selecione o candidato 2</h2>
-        <div ng-if="selecao2" card ng-candidato="selecao2"></div>
+        <div class="card" ng-if="selecao2" card ng-candidato="selecao2"></div>
       </div>
 
       <div class="col-md-4">
         <h2 ng-if="!selecao3">Selecione o candidato 3</h2>
-        <div ng-if="selecao3" card ng-candidato="selecao3"></div>
+        <div class="card" ng-if="selecao3" card ng-candidato="selecao3"></div>
       </div>
 
     </div>
@@ -66,8 +66,10 @@
 
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script
   src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
   integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
