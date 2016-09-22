@@ -49,6 +49,8 @@ h1 {
           height: 30px; } }
     #candidatos figure.selecao img {
       border-color: #F90; }
+    #candidatos figure.selecao h2 {
+      color: #fff; }
 
 #cards {
   margin-top: 30px; }
@@ -57,7 +59,11 @@ h1 {
     text-align: center;
     margin: 0; }
   #cards h2 {
-    margin: 0 0 10px; }
+    margin: 0;
+    padding: 5px;
+    font-size: 1.4em;
+    color: #666;
+    background: #eee; }
   #cards h3 {
     padding: 5px;
     font-size: 1.2em;
@@ -68,7 +74,8 @@ h1 {
 .card {
   background: #fff;
   padding: 15px; }
-  .card .consolidado td {
+  .card .consolidado td,
+  .card td.valor {
     text-align: right; }
 
 table {
