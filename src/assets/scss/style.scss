@@ -62,6 +62,9 @@ h1 {
       img {
         border-color: #F90;
       }
+      h2 {
+        color: #fff;
+      }
     }
   }
 }
@@ -75,7 +78,11 @@ h1 {
     margin: 0;
   }
   h2 {
-    margin: 0 0 10px;
+    margin: 0;
+    padding: 5px;
+    font-size: 1.4em;
+    color: #666;
+    background: #eee;
   }
   h3 {
     padding: 5px;
@@ -90,10 +97,9 @@ h1 {
   background: #fff;
   padding: 15px;
 
-  .consolidado {
-    td {
-      text-align: right;
-    }
+  .consolidado td,
+  td.valor {
+    text-align: right;
   }
 }
 

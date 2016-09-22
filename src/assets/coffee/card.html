@@ -27,7 +27,7 @@
   <table class="table table-condensed table-striped">
     <tr ng-repeat="doacao in ngCandidato.maioresApoiadores">
       <td>{{ doacao.nomeDoador }}</td>
-      <td>{{ doacao.valorReceita | currency : 'R$'}}</td>
+      <td class="valor">{{ doacao.valorReceita | currency : 'R$'}}</td>
     </tr>
   </table>
 </div>
