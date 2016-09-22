@@ -2,7 +2,7 @@
 this.App = angular.module("app", ['templates']);
 
 this.App.controller('PageController', function($scope, $http) {
-  return $http.get('https://raw.githubusercontent.com/pedrorocha-net/' + 'eleicoes2016-rj-comparadoacoes/master/data/candidatos.json').then(function(result) {
+  return $http.get('https://raw.githubusercontent.com/pedrorocha-net/' + 'eleicoes2016-rj-comparadoacoes/master/data/' + 'candidatos_dados_processados.json').then(function(result) {
     $scope.candidatos = result.data;
     $scope.selecao1 = null;
     $scope.selecao2 = null;
