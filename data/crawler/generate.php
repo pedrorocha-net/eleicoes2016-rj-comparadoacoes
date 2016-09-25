@@ -8,12 +8,14 @@ include_once './Doacao.php';
 $arquivo_processado = 'candidatos_dados_processados.json';
 
 /**
- * Códigos das cidades podem ser vistos na URL abaixo(atenção ao código do
- * estado):
- * http://divulgacandcontas.tse.jus.br/divulga/rest/v1/eleicao/buscar/RJ/2/municipios
+ * Para alterar para outras cidades, leia as intruções em
+ * https://github.com/pedrorocha-net/eleicoes2016-rj-comparadoacoes
  */
-$codigo_cidade = 60011; // Rio de Janeiro - RJ
-$Cidade = new Cidade($codigo_cidade);
+$ano = 2016;
+$cidade_id = 60011; // Rio de Janeiro - RJ
+$eleicao_id = 2; // 2016
+$cargo_id = 11; // Prefeito
+$Cidade = new Cidade($ano, $cidade_id, $eleicao_id, $cargo_id);
 
 // Apagar conteúdo sobre candidatos
 file_put_contents('../' . $arquivo_processado, '');
@@ -21,7 +23,7 @@ file_put_contents('../' . $arquivo_processado, '');
 $candidatos_novo = [];
 
 foreach ($Cidade->candidatos as $candidato_obj) {
-  $Candidato = new Candidato($candidato_obj->id);
+  $Candidato = new Candidato($ano, $cidade_id, $eleicao_id, $candidato_obj->id);
 
   $item_candidato = [];
   $item_candidato['id'] = $candidato_obj->id;
@@ -60,9 +62,10 @@ foreach ($Cidade->candidatos as $candidato_obj) {
     }
   }
 
-  if($item_candidato['contribuicoesFinanceirasQtd'] > 0) {
+  if ($item_candidato['contribuicoesFinanceirasQtd'] > 0) {
     $item_candidato['apoioMedio'] = $item_candidato['contribuicoesFinanceirasTotal'] / $item_candidato['contribuicoesFinanceirasQtd'];
-  } else {
+  }
+  else {
     $item_candidato['apoioMedio'] = $item_candidato['contribuicoesFinanceirasTotal'];
   }
 

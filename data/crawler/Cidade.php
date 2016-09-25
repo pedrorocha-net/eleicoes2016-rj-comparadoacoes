@@ -7,22 +7,24 @@ class Cidade {
     $candidatos,
     $url_base = 'http://divulgacandcontas.tse.jus.br/divulga/rest/v1';
 
-  public function __construct($id) {
+  public function __construct($ano, $id, $eleicao_id, $cargo_id) {
     $this->id = $id;
-    $dados = $this->getDetalhes(11, 2016);
+    $dados = $this->getDetalhes($cargo_id, $ano, $eleicao_id);
     $this->detalhes = $dados->unidadeEleitoral;
     $this->candidatos = $dados->candidatos;
   }
 
   /**
    * Por padrão, busca candidatos a prefeito
-   * @param int $cargo
+   * @param int $cargo_id
    * @param int $ano
+   * @param int $eleicao_id
    * @return mixed
    */
-  public function getDetalhes($cargo = 11, $ano = 2016) {
-    $path = $this->url_base
-      . "/candidatura/listar/$ano/$this->id/2/$cargo/candidatos";
+  public function getDetalhes($cargo_id, $ano, $eleicao_id) {
+    $path = "$this->url_base/candidatura/listar/";
+    $path .= "$ano/$this->id/$eleicao_id/$cargo_id/candidatos";
+
     $json = file_get_contents($path);
     return json_decode($json);
   }
