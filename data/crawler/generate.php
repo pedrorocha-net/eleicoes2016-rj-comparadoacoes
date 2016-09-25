@@ -59,7 +59,13 @@ foreach ($Cidade->candidatos as $candidato_obj) {
       }
     }
   }
-  $item['apoioMedio'] = $item['contribuicoesFinanceirasTotal'] / $item['contribuicoesFinanceirasQtd'];
+
+  if($item['contribuicoesFinanceirasQtd'] > 0) {
+    $item['apoioMedio'] = $item['contribuicoesFinanceirasTotal'] / $item['contribuicoesFinanceirasQtd'];
+  } else {
+    $item['apoioMedio'] = $item['contribuicoesFinanceirasTotal'];
+  }
+  
   $doacoes = array_values($doacoes);
 
   usort($doacoes, function ($a, $b) {
