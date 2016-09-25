@@ -6,6 +6,8 @@ O TSE(Tribunal Superior Eleitoral) libera dados sobre todas as candidaturas no B
 Partindo desse ponto, esse projeto é para fornecer um comparador de doações de campanha entre candidatos a prefeito
 do Rio de Janeiro, facilitando visualizar diferenças na forma como cada um está bancando sua campanha.
 
+Você pode acessar o projeto em http://pedrorocha-net.github.io/eleicoes2016-rj-comparadoacoes/
+
 # Requerimentos
 
 - PHP 5.4 ou mais novo.
