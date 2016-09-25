@@ -4,10 +4,12 @@
 
 
 @App.controller 'PageController', ($scope, $http) ->
-  $http.get('https://raw.githubusercontent.com/pedrorocha-net/' +
-      'eleicoes2016-rj-comparadoacoes/master/data/' +
-      'candidatos_dados_processados.json'
-  ).then (result) ->
+  # Se quiser clonar o repositório para fazer para outra cidade, altere aqui
+  # e aponte para o JSON em seu repositório
+  url_json_dados = 'https://raw.githubusercontent.com/' +
+    'pedrorocha-net/eleicoes2016-rj-comparadoacoes' +
+    '/master/data/candidatos_dados_processados.json'
+  $http.get(url_json_dados).then (result) ->
     $scope.candidatos = result.data
     $scope.selecao1 = null
     $scope.selecao2 = null
