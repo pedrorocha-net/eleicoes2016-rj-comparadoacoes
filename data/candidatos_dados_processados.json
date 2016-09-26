@@ -25,13 +25,13 @@
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "MARIANA MOREAU",
+        "nomeDoador": "GISELA MARIA MOREAU",
         "valorReceita": 20000,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "GISELA MARIA MOREAU",
+        "nomeDoador": "MARIANA MOREAU",
         "valorReceita": 20000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -49,13 +49,13 @@
       },
       {
         "especieRecurso": "Cart\u00e3o de cr\u00e9dito",
-        "nomeDoador": "JOAO PAULO DE RESENDE",
+        "nomeDoador": "LUCIO ALMIRAO FERREIRA",
         "valorReceita": 1000,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Cart\u00e3o de cr\u00e9dito",
-        "nomeDoador": "LUCIO ALMIRAO FERREIRA",
+        "nomeDoador": "JUNIA BONFANTE RAYMUNDO",
         "valorReceita": 1000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -67,7 +67,7 @@
       },
       {
         "especieRecurso": "Cart\u00e3o de cr\u00e9dito",
-        "nomeDoador": "JUNIA BONFANTE RAYMUNDO",
+        "nomeDoador": "JOAO PAULO DE RESENDE",
         "valorReceita": 1000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -99,13 +99,13 @@
     "maioresApoiadores": [
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "ANDR\u00c9 STRAUSS VASQUES",
+        "nomeDoador": "CESAR AUGUSTO FURTADO FRANCO",
         "valorReceita": 10000,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "CESAR AUGUSTO FURTADO FRANCO",
+        "nomeDoador": "ANDR\u00c9 STRAUSS VASQUES",
         "valorReceita": 10000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -135,13 +135,13 @@
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "SAMANTHA CORTEZ COQUEIRO",
+        "nomeDoador": "ROG\u00c9RIO PERES FERNANDES",
         "valorReceita": 500,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "ROG\u00c9RIO PERES FERNANDES",
+        "nomeDoador": "SAMANTHA CORTEZ COQUEIRO",
         "valorReceita": 500,
         "fonteOrigem": "Outros Recursos"
       },
@@ -169,21 +169,14 @@
       "nome": null
     },
     "slogan": "POR UM RIO MAIS HUMANO",
-    "contribuicoesFinanceirasTotal": 1000,
-    "contribuicoesFinanceirasQtd": 1,
-    "fundoPartidario": 3278000,
-    "fundoPartidarioQtd": 6,
-    "pessoasFisicas": 27300,
-    "pessoasFisicasQtd": 10,
-    "apoioMedio": 1000,
-    "maioresApoiadores": [
-      {
-        "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "MAURO MACEDO ",
-        "valorReceita": 1000,
-        "fonteOrigem": "Outros Recursos"
-      }
-    ]
+    "contribuicoesFinanceirasTotal": 0,
+    "contribuicoesFinanceirasQtd": 0,
+    "fundoPartidario": 0,
+    "fundoPartidarioQtd": 0,
+    "pessoasFisicas": 0,
+    "pessoasFisicasQtd": 0,
+    "apoioMedio": 0,
+    "maioresApoiadores": []
   },
   {
     "id": 190000019572,
@@ -298,13 +291,13 @@
     "maioresApoiadores": [
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "LUIZ GUSTAVO ANTONIO SILVA BICHARA",
+        "nomeDoador": "ELIE HORN",
         "valorReceita": 50000,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "ELIE HORN",
+        "nomeDoador": "LUIZ GUSTAVO ANTONIO SILVA BICHARA",
         "valorReceita": 50000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -358,10 +351,10 @@
     "slogan": "RIO EM COMUM",
     "contribuicoesFinanceirasTotal": 29920,
     "contribuicoesFinanceirasQtd": 31,
-    "fundoPartidario": 99000,
-    "fundoPartidarioQtd": 1,
-    "pessoasFisicas": 58831.92,
-    "pessoasFisicasQtd": 68,
+    "fundoPartidario": 249000,
+    "fundoPartidarioQtd": 2,
+    "pessoasFisicas": 66605.89,
+    "pessoasFisicasQtd": 80,
     "apoioMedio": 965.161290323,
     "maioresApoiadores": [
       {
@@ -378,13 +371,13 @@
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "ALOISIO TIBIRI\u00c7A MIRANDA",
+        "nomeDoador": "MARCIO TENENBA",
         "valorReceita": 2000,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "MARCIO TENENBA",
+        "nomeDoador": "ALOISIO TIBIRI\u00c7A MIRANDA",
         "valorReceita": 2000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -395,6 +388,12 @@
         "fonteOrigem": "Outros Recursos"
       },
       {
+        "especieRecurso": "Dep\u00f3sito em esp\u00e9cie",
+        "nomeDoador": "JOAO C. LIMA",
+        "valorReceita": 1000,
+        "fonteOrigem": "Outros Recursos"
+      },
+      {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
         "nomeDoador": "SERGIO R.",
         "valorReceita": 1000,
@@ -402,7 +401,7 @@
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "LUIZ M. MELO",
+        "nomeDoador": "ARTUR O. NETO",
         "valorReceita": 1000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -413,14 +412,8 @@
         "fonteOrigem": "Outros Recursos"
       },
       {
-        "especieRecurso": "Dep\u00f3sito em esp\u00e9cie",
-        "nomeDoador": "JOAO C. LIMA",
-        "valorReceita": 1000,
-        "fonteOrigem": "Outros Recursos"
-      },
-      {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "ARTUR O. NETO",
+        "nomeDoador": "JORGE A. Z. BERMUDEZ",
         "valorReceita": 1000,
         "fonteOrigem": "Outros Recursos"
       }
@@ -458,13 +451,13 @@
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "CLARA MACEDO SOARES DE ARAUJO",
+        "nomeDoador": "MARIANA MOREAU",
         "valorReceita": 5000,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "MARIANA MOREAU",
+        "nomeDoador": "CLARA MACEDO SOARES DE ARAUJO",
         "valorReceita": 5000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -493,8 +486,8 @@
         "fonteOrigem": "Outros Recursos"
       },
       {
-        "especieRecurso": "Boleto de cobran\u00e7a",
-        "nomeDoador": "ANDRe JORGE CAMPELLO RODRIGUES PEREIRA",
+        "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
+        "nomeDoador": "MARILKA CORREA DA COSTA LANES AZEDO",
         "valorReceita": 1500,
         "fonteOrigem": "Outros Recursos"
       },
@@ -526,25 +519,25 @@
     "maioresApoiadores": [
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "CELIO PINTO DE ALMEIDA",
-        "valorReceita": 100000,
-        "fonteOrigem": "Outros Recursos"
-      },
-      {
-        "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
         "nomeDoador": "ALBERTO CARLOS PECEGUEIRO DO AMARAL",
         "valorReceita": 100000,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "ROGERIO CHOR",
-        "valorReceita": 50000,
+        "nomeDoador": "CELIO PINTO DE ALMEIDA",
+        "valorReceita": 100000,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
         "nomeDoador": "GILBERTO ANDRE BUFFARA",
+        "valorReceita": 50000,
+        "fonteOrigem": "Outros Recursos"
+      },
+      {
+        "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
+        "nomeDoador": "ROGERIO CHOR",
         "valorReceita": 50000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -568,13 +561,13 @@
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "RENATO FEITOSA RIQUE",
+        "nomeDoador": "SYLVIA MARIA DA GLORIA DE MELLO NABUCO",
         "valorReceita": 30000,
         "fonteOrigem": "Outros Recursos"
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "SYLVIA MARIA DA GLORIA DE MELLO NABUCO",
+        "nomeDoador": "RENATO FEITOSA RIQUE",
         "valorReceita": 30000,
         "fonteOrigem": "Outros Recursos"
       },
@@ -642,12 +635,6 @@
       },
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
-        "nomeDoador": "JOSE WALTER DO NASCIMENTO",
-        "valorReceita": 150000,
-        "fonteOrigem": "Outros Recursos"
-      },
-      {
-        "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
         "nomeDoador": "SERGIO LUIZ CORTES DA SILVEIRA",
         "valorReceita": 150000,
         "fonteOrigem": "Outros Recursos"
@@ -655,6 +642,12 @@
       {
         "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
         "nomeDoador": "ROBSON RODRIGUES GOUVEIA",
+        "valorReceita": 150000,
+        "fonteOrigem": "Outros Recursos"
+      },
+      {
+        "especieRecurso": "Transfer\u00eancia eletr\u00f4nica",
+        "nomeDoador": "JOSE WALTER DO NASCIMENTO",
         "valorReceita": 150000,
         "fonteOrigem": "Outros Recursos"
       },
