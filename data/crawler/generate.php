@@ -31,12 +31,12 @@ foreach ($Cidade->candidatos as $candidato_obj) {
   $item_candidato['numero'] = $candidato_obj->numero;
   $item_candidato['partido'] = $candidato_obj->partido;
   $item_candidato['slogan'] = $candidato_obj->nomeColigacao;
-  $item_candidato['contribuicoesFinanceirasTotal'] = 0;
-  $item_candidato['contribuicoesFinanceirasQtd'] = 0;
+  $item_candidato['contribuicoesEstimadasTotal'] = 0;
+  $item_candidato['contribuicoesEstimadasQtd'] = 0;
+  $item_candidato['contribuicoesFinanceirasPFTotal'] = 0;
+  $item_candidato['contribuicoesFinanceirasPFQtd'] = 0;
   $item_candidato['fundoPartidario'] = 0;
   $item_candidato['fundoPartidarioQtd'] = 0;
-  $item_candidato['pessoasFisicas'] = $Candidato->getDadosConsolidados()->totalReceitaPF + $Candidato->getDadosConsolidados()->totalInternet;
-  $item_candidato['pessoasFisicasQtd'] = $Candidato->getDadosConsolidados()->qtdReceitaPF + $Candidato->getDadosConsolidados()->qtdInternet;
   $receitas = $Candidato->getReceitas();
 
   $doacoes = [];
@@ -49,8 +49,8 @@ foreach ($Cidade->candidatos as $candidato_obj) {
         $item_candidato['fundoPartidarioQtd']++;
       }
       else {
-        $item_candidato['contribuicoesFinanceirasQtd']++;
-        $item_candidato['contribuicoesFinanceirasTotal'] += $doacao_formatada['valorReceita'];
+        $item_candidato['contribuicoesFinanceirasPFQtd']++;
+        $item_candidato['contribuicoesFinanceirasPFTotal'] += $doacao_formatada['valorReceita'];
 
         if (isset($doacoes[$doacao_formatada['nomeDoador']])) {
           $doacoes[$doacao_formatada['nomeDoador']]['valorReceita'] += $doacao_formatada['valorReceita'];
@@ -60,13 +60,17 @@ foreach ($Cidade->candidatos as $candidato_obj) {
         }
       }
     }
+    else {
+      $item_candidato['contribuicoesEstimadasTotal'] += $doacao_formatada['valorReceita'];
+      $item_candidato['contribuicoesEstimadasQtd']++;
+    }
   }
 
-  if ($item_candidato['contribuicoesFinanceirasQtd'] > 0) {
-    $item_candidato['apoioMedio'] = $item_candidato['contribuicoesFinanceirasTotal'] / $item_candidato['contribuicoesFinanceirasQtd'];
+  if ($item_candidato['contribuicoesFinanceirasPFQtd'] > 0) {
+    $item_candidato['apoioMedio'] = $item_candidato['contribuicoesFinanceirasPFTotal'] / $item_candidato['contribuicoesFinanceirasPFQtd'];
   }
   else {
-    $item_candidato['apoioMedio'] = $item_candidato['contribuicoesFinanceirasTotal'];
+    $item_candidato['apoioMedio'] = $item_candidato['contribuicoesFinanceirasPFTotal'];
   }
 
   $doacoes = array_values($doacoes);
