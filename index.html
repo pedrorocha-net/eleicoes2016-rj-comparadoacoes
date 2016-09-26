@@ -35,33 +35,31 @@
     <figure ng-repeat="candidato in candidatos"
             ng-class="(candidato.id == selecao1.id) || (candidato.id == selecao2.id) || (candidato.id == selecao3.id)  ? 'selecao' : ''"
             ng-click="selecionar(candidato)"
-            class="col-xs-4 col-sm-2 col-md-1">
-      <img class="img-circle"
-           ng-src="http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/foto/2/{{candidato.id}}"
-           alt="{{candidato.nome}}">
+            class="col-xs-4 col-sm-2 col-md-2">
+      <img
+        ng-src="http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/foto/2/{{candidato.id}}"
+        alt="{{candidato.nome}}">
       <h2>{{candidato.nome}}</h2>
     </figure>
   </section>
 
   <section id="cards" class="row">
-    <div class="col-md-12">
 
-      <div class="col-md-4">
-        <h2 ng-if="!selecao1">Selecione o candidato 1</h2>
-        <div class="card" ng-if="selecao1" card ng-candidato="selecao1"></div>
-      </div>
-
-      <div class="col-md-4">
-        <h2 ng-if="!selecao2">Selecione o candidato 2</h2>
-        <div class="card" ng-if="selecao2" card ng-candidato="selecao2"></div>
-      </div>
-
-      <div class="col-md-4">
-        <h2 ng-if="!selecao3">Selecione o candidato 3</h2>
-        <div class="card" ng-if="selecao3" card ng-candidato="selecao3"></div>
-      </div>
-
+    <div class="col-md-4">
+      <h2 ng-if="!selecao1">Selecione o candidato 1</h2>
+      <div class="card" ng-if="selecao1" card ng-candidato="selecao1"></div>
     </div>
+
+    <div class="col-md-4">
+      <h2 ng-if="!selecao2">Selecione o candidato 2</h2>
+      <div class="card" ng-if="selecao2" card ng-candidato="selecao2"></div>
+    </div>
+
+    <div class="col-md-4">
+      <h2 ng-if="!selecao3">Selecione o candidato 3</h2>
+      <div class="card" ng-if="selecao3" card ng-candidato="selecao3"></div>
+    </div>
+
   </section>
 
 </div>
