@@ -2,8 +2,12 @@
 <div>
   <table class="consolidado table table-condensed table-striped">
     <tr>
-      <th>Total arrecadado</th>
-      <td>{{ ngCandidato.contribuicoesFinanceirasTotal + ngCandidato.fundoPartidario | currency : 'R$'}}</td>
+      <th>Total de doações arrecadadas<br/><small>desconsidera as estimadas</small></th>
+      <td>{{ ngCandidato.contribuicoesFinanceirasPFTotal + ngCandidato.fundoPartidario | currency : 'R$'}}</td>
+    </tr>
+    <tr>
+      <th>Doações estimadas<br/><small>serviços prestados, estimados no valor indicado</small></th>
+      <td>{{ ngCandidato.contribuicoesEstimadasTotal | currency : 'R$'}}</td>
     </tr>
     <tr>
       <th>Fundo partidário</th>
@@ -11,11 +15,11 @@
     </tr>
     <tr>
       <th>Pessoas físicas</th>
-      <td>{{ ngCandidato.contribuicoesFinanceirasTotal | currency : 'R$'}}</td>
+      <td>{{ ngCandidato.contribuicoesFinanceirasPFTotal | currency : 'R$'}}</td>
     </tr>
     <tr>
       <th>Número de doadores<br/><small>(pessoas físicas)</small></th>
-      <td>{{ ngCandidato.contribuicoesFinanceirasQtd }}</td>
+      <td>{{ ngCandidato.contribuicoesFinanceirasPFQtd }}</td>
     </tr>
     <tr>
       <th>Apoio médio<br/><small>(pessoas físicas)</small></th>
