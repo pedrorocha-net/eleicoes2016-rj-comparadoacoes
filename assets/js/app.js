@@ -4,6 +4,7 @@ this.App = angular.module("app", ['templates']);
 this.App.controller('PageController', function($scope, $http) {
   var url_json_dados;
   url_json_dados = 'https://raw.githubusercontent.com/' + 'pedrorocha-net/eleicoes2016-rj-comparadoacoes' + '/master/data/candidatos_dados_processados.json';
+  url_json_dados = 'http://localhost/eleicoes2016-rj-comparadoacoes/data/candidatos_dados_processados.json';
   return $http.get(url_json_dados).then(function(result) {
     $scope.candidatos = result.data;
     $scope.selecao1 = null;
