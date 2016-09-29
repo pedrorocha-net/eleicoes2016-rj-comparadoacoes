@@ -3,7 +3,7 @@ this.App = angular.module("app", ['templates']);
 
 this.App.controller('PageController', function($scope, $http) {
   var base_url, data_url, repo_url, url_json_config;
-  base_url = 'https://raw.githubusercontent.com/';
+  base_url = 'https://raw.githubusercontent.com';
   repo_url = 'pedrorocha-net/eleicoes2016-rj-comparadoacoes';
   data_url = base_url + "/" + repo_url + "/master/data";
   url_json_config = data_url + "/config.json";
