@@ -12,6 +12,16 @@ h1 {
   padding: 10px 0;
   text-transform: uppercase; }
 
+#config h2 {
+  color: #fff; }
+
+#config p {
+  color: #ccc; }
+
+#config a {
+  text-decoration: underline;
+  color: #aaa; }
+
 #candidatos {
   padding: 30px 0; }
   #candidatos figure {
@@ -22,22 +32,12 @@ h1 {
         padding-right: 5px; } }
     @media only screen and (min-width: 980px) {
       #candidatos figure {
-        width: 9%;
         padding-left: 10px;
         padding-right: 10px; } }
     #candidatos figure img {
       width: 100%;
       height: auto;
       border: 2px solid #F7F7F7; }
-      @media only screen and (max-width: 639px) {
-        #candidatos figure img {
-          height: 130px; } }
-      @media only screen and (min-width: 640px) and (max-width: 979px) {
-        #candidatos figure img {
-          height: 90px; } }
-      @media only screen and (min-width: 980px) {
-        #candidatos figure img {
-          height: 90px; } }
       #candidatos figure img:hover {
         border-color: #F90; }
     #candidatos figure h2 {
