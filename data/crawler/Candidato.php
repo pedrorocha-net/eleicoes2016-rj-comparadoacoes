@@ -44,6 +44,9 @@ class Candidato {
     $path .= "/" . $this->candidatura->dadosConsolidados->sqEntregaPrestacao;
 
     $json = file_get_contents($path);
+    if (!$json) {
+      return [];
+    }
     return json_decode($json);
   }
 
