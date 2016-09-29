@@ -32,17 +32,25 @@
 <div class="container">
 
   <section id="config" class="row">
+    <h2>Selecione a cidade desejada</h2>
+    <p>
+      Sua cidade não está na lista? Acesse
+      <a href="https://github.com/pedrorocha-net/eleicoes2016-rj-comparadoacoes/issues/new"
+         target="_blank">
+        https://github.com/pedrorocha-net/eleicoes2016-rj-comparadoacoes/issues/new
+      </a> e diga qual o estado e cidade que deseja, que iremos adicionar.
+    </p>
     <select class="form-control form-select"
             name="cidade"
             ng-model="cidade">
-      <option ng-repeat="cidade in config.cidades | orderBy:nome"
+      <option ng-repeat="cidade in config.cidades | orderBy:estado | orderBy:nome"
               value="{{ cidade.id }}">
-        {{ cidade.nome }}
+        {{ cidade.estado }} - {{ cidade.nome }}
       </option>
     </select>
   </section>
 
-  <section id="candidatos" class="row">
+  <section ng-if="cidade" id="candidatos" class="row">
     <figure ng-repeat="candidato in candidatos"
             ng-class="(candidato.id == selecao1.id) || (candidato.id == selecao2.id) || (candidato.id == selecao3.id)  ? 'selecao' : ''"
             ng-click="selecionar(candidato)"
@@ -54,7 +62,7 @@
     </figure>
   </section>
 
-  <section id="cards" class="row">
+  <section ng-if="cidade" id="cards" class="row">
 
     <div class="col-md-4">
       <h2 ng-if="!selecao1">Selecione o candidato 1</h2>

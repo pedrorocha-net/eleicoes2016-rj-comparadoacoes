@@ -16,6 +16,19 @@ h1 {
   text-transform: uppercase;
 }
 
+#config {
+  h2 {
+    color: #fff;
+  }
+  p {
+    color: #ccc;
+  }
+  a {
+    text-decoration: underline;
+    color: #aaa;
+  }
+}
+
 #candidatos {
   padding: 30px 0;
 

@@ -5,7 +5,7 @@ include_once './Cidade.php';
 include_once './Candidato.php';
 include_once './Doacao.php';
 
-$config = file_get_contents('../config.json');
+$config = json_decode(file_get_contents('../config.json'));
 
 foreach ($config->cidades as $cidade) {
 

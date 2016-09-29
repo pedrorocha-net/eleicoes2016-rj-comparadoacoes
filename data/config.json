@@ -1,0 +1,17 @@
+{
+  "ano": 2016,
+  "eleicao_id": 2,
+  "cargo_id": 11,
+  "cidades": [
+    {
+      "id": 60011,
+      "nome": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "id": 71072,
+      "nome": "São Paulo",
+      "estado": "SP"
+    }
+  ]
+}
