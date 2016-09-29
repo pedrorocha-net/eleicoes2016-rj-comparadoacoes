@@ -11,6 +11,8 @@ foreach ($config->cidades as $cidade) {
 
   $Cidade = new Cidade($config->ano, $cidade->id, $config->eleicao_id, $config->cargo_id);
 
+  print "## " . $cidade->nome . " - Iniciando\n";
+
   $id_json = $config->ano . $config->eleicao_id . $cidade->id . $config->cargo_id;
   $arquivo_processado = 'candidatos_dados_processados_' . $id_json . '.json';
 
@@ -83,6 +85,8 @@ foreach ($config->cidades as $cidade) {
   $json_code = json_encode($candidatos_novo);
 
   file_put_contents('../' . $arquivo_processado, $json_code);
+
+  print "## " . $cidade->nome . " - Concluída\n";
 }
 
 ?>

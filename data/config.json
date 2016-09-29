@@ -9,8 +9,23 @@
       "estado": "RJ"
     },
     {
+      "id": 31054,
+      "nome": "Aracaju",
+      "estado": "SE"
+    },
+    {
+      "id": 70718,
+      "nome": "Santos",
+      "estado": "SP"
+    },
+    {
       "id": 71072,
       "nome": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "id": 70998,
+      "nome": "São José dos Campos",
       "estado": "SP"
     }
   ]
