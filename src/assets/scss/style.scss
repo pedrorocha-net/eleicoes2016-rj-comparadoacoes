@@ -26,7 +26,6 @@ h1 {
       padding-right: 5px;
     }
     @include respond-to('md') {
-      width: 9%;
       padding-left: 10px;
       padding-right: 10px;
     }
@@ -36,13 +35,13 @@ h1 {
       height: auto;
       border: 2px solid #F7F7F7;
       @include respond-to('xs') {
-        height: 130px;
+        //height: 130px;
       }
       @include respond-to('sm') {
-        height: 90px;
+        //height: 90px;
       }
       @include respond-to('md') {
-        height: 90px;
+        //height: 90px;
       }
 
       &:hover {
