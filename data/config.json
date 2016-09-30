@@ -4,8 +4,28 @@
   "cargo_id": 11,
   "cidades": [
     {
+      "id": 58190,
+      "nome": "Campos dos Goytacazes",
+      "estado": "RJ"
+    },
+    {
+      "id": 58335,
+      "nome": "Duque de Caxias",
+      "estado": "RJ"
+    },
+    {
+      "id": 58653,
+      "nome": "Niterói",
+      "estado": "RJ"
+    },
+    {
       "id": 60011,
       "nome": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "id": 58971,
+      "nome": "São Gonçalo",
       "estado": "RJ"
     },
     {
