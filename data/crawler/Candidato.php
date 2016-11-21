@@ -40,8 +40,8 @@ class Candidato {
 
   public function getReceitas() {
     $path = "$this->url_base/prestador/consulta/receitas/$this->eleicao_id";
-    $path .= "/" . $this->candidatura->dadosConsolidados->sqPrestadorConta;
-    $path .= "/" . $this->candidatura->dadosConsolidados->sqEntregaPrestacao;
+    $path .= "/" . $this->candidatura->idPrestador;
+    $path .= "/" . $this->candidatura->idUltimaEntrega;
 
     $json = file_get_contents($path);
     if (!$json) {
