@@ -1,6 +1,5 @@
 <?php
 
-include_once './Utils.php';
 include_once './Cidade.php';
 include_once './Candidato.php';
 include_once './Doacao.php';
