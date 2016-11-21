@@ -7,7 +7,7 @@
   base_url = 'https://raw.githubusercontent.com'
   repo_url = 'pedrorocha-net/eleicoes2016-rj-comparadoacoes'
   data_url = "#{base_url}/#{repo_url}/master/data"
-  data_url = "http://localhost/eleicoes2016-rj-comparadoacoes/data"
+#  data_url = "http://localhost/eleicoes2016-rj-comparadoacoes/data"
 
   url_json_config = "#{data_url}/config.json"
 
